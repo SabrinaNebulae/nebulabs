@@ -1,0 +1,133 @@
+<?php
+ 
+return [
+    // Global
+    "Welcome to Nebulabs!" => "Bienvenue au Nebulabs !",
+    "Dashboard" =>  "Tableau de Bord",
+    "Profile" =>  "Profil",
+    "Manage Account" =>  "Gestion du compte",
+    "Login" =>  "Se connecter",
+    "Sign up" =>  "S'inscrire",
+    "Log Out" =>  "Se déconnecter",
+    "Register" =>  "S'inscrire",
+    "Switch language" => "Changer de langue",
+    "English" => "Anglais",
+    "French" => "Français",
+
+    // Add an idea
+    "Add an idea" =>  "Proposer une idée",
+    "Please login to create an idea." => "N'attendez plus, connectez-vous pour proposer une idée !",
+    "Let us know what you would like and we'll take a look!" => "Partagez nous votre réflexion, et permettez à la communauté d'en discuter !",
+    "Your Idea" =>  "Votre Idée",
+    "Category" =>  "Catégorie",
+    "Describe your idea" =>  "Décrivez-nous votre idée ...",
+    "Attach" =>  "Joindre",
+    "Submit" =>  "Envoyer",
+
+    // Ideas Index
+    "Ideas" => "Idées",
+    "All Ideas" =>  "Toutes",
+    "Open" =>  "Ouvert",
+    "Considering" =>  "À l'étude",
+    "In progress" =>  "En cours",
+    "Implemented" =>  "Implémentées",
+    "Closed" =>  "Fermées",
+    "Set Status" =>  "Changer statut",
+    "Reply" =>  "Répondre",
+    "Spam Reports:" =>  "Signalements :",
+    "Sorry, no ideas were found ..." => "Désolé, aucune idée n'a été trouvée :'(",
+    "There's actually" => "Il y a actuellement",
+    "idea(s) to debate!" => "idée(s) à débattre !",
+
+    "All Categories" =>  "Toutes les catégories",
+    "No Filter" =>  "Aucun filtre",
+    "Find an idea" =>  "Rechercher une idée",
+    "Top Voted" =>  "Les plus votées",
+    "My Ideas" =>  "Mes idées",
+    "Spam Ideas" =>  "Idées signalées",
+    "Spam Comments" =>  "Commentaires signalés",
+    "No comments yet for this idea..." => "Pas de commentaires pour cette idée, pour le moment ...",
+
+    "vote" =>  "vote",
+    "comment" =>  "commentaire",
+    "Post comment" =>  "Publier",
+    "I vote" =>  "Je vote",
+    "Voted" =>  "j'ai voté",
+    "Go ahead, don't be shy. Share your thoughts ..." =>  "Allez, ne sois pas timide, partage tes pensées ...",
+    "Admin" => "Admin",
+
+    // Pagination + search
+    "Showing" =>  "Affiche de",
+    "results" =>  "résultats",
+    "to" =>  "à",
+    "of" =>  "sur",
+    "Go Back to your research" =>  "Revenir à la recherche",
+
+
+    // Actions on Idea & Comment
+    "Edit Idea" =>  "Modifier cette idée",
+    "Delete" => "Supprimer",
+    "Delete Idea" =>  "Supprimer cette idée",
+    "Mark as Spam" =>  "Signaler",
+    "Not Spam" =>  "Désignaler",
+    "Edit Comment" =>  "Modifier le commentaire",
+    "Delete Comment" =>  "Supprimer le commentaire",
+    "Status changed to" => "Statut de l'idée changé pour",
+    "Cancel" => "Annuler",
+    "Mark all as read" => "Tout marquer comme lu",
+    "changed status for the idea" => "a changé le statut de cette idée",
+    "on" => "en",
+    "with this comment:" => "avec ce commentaire :",
+
+    
+    "Add an update comment (optional)" =>  "Ajouter un commentaire à cette mise à jour (facultatif)",
+    "Notify all voters" =>  "Prévenir tous les votants",
+    "Update" =>  "Mettre à jour",
+
+    // Notifications & alert boxes
+    "No new notifications." => "Pas de nouvelles notifications...",
+    "commented on" => "a laissé un commentaire sur",
+    "Idea was added successfully!" => "Votre idée a bien été publiée !",
+    "Idea was deleted successfully!" => "Cette idée a bien été supprimée !",
+    "Status was updated successfully!" => "Le statut a bien été mis à jour !",
+    "Status is the same!" => "Le statut est le même.",
+    "This idea no longer exists!" => "Cette idée n'existe plus :'(",
+    "An administator changed this idea status." => "Un administrateur a changé le statut de cette idée.",
+    "Comment was posted!" => "Le commentaire a bien été posté !",
+    "Comment was deleted." => "Le commentaire a été supprimé.",
+    "Comment was marked as spam." => "Le commentaire a bien été signalé auprès des admins.",
+    "Are you sure you want to delete this idea? This action cannot be undone." => "Êtes-vous sûr·e de vouloir supprimer cette idée ? Cette action est définitive.",
+    "Are you sure you want to delete this comment? This action cannot be undone." => "Êtes-vous sûr·e de vouloir supprimer ce commentaire ? Cette action est définitive.",
+    "Mark Idea as Spam" => "Signaler cette idée comme spam",
+    "Mark Comment as Spam" => "Signaler ce commentaire comme spam",
+    "Are you sure you want to mark this comment as spam?" => "Êtes-vous sûr.e de vouloir signaler ce commentaire comme spam ?",
+    "Are you sure you want to mark this idea as spam?" => "Êtes-vous sûr.e de vouloir signaler cette idée comme spam ?",
+    "Reset Spam Counter" => "Réinitialiser le compteur de signalement",
+    "Are you sure you want to mark this idea as NOT spam? This will reset the spam counter to 0." => "Êtes-vous sûr.e de vouloir réhabiliter cette idée ? Cette action réinitialisera le compteur à 0.",
+    "Are you sure you want to mark this comment as NOT spam? This will reset the spam counter to 0." => "Êtes-vous sûr.e de vouloir réhabiliter ce commentaire ? Cette action réinitialisera le compteur à 0.",
+    "Spam counter was reset for this comment!" => "Les signalements pour ce commentaire ont bien été réinitialisés.",
+    "Idea was marked as spam successfully!" => "L'idée a bien été signalée auprès des admins.",
+    "Spam counter was reset for this idea!" => "Les signalements pour cette idée ont bien été réinitialisés.",
+    "A comment was posted on your idea" => "Une personne vient de commenter votre idée",
+    "commented on your idea:" => " a commenté votre idée :",
+    "Go to Idea" => "Aller à l'idée",
+    "Thanks," => "Merci,",
+
+    // Emails
+    "An idea you voted for has a new status" => "Une idée pour laquelle pour avez voté à un nouveau statut",
+    "Your Idea status was updated by an admin" => "Le statut de votre idée a été mis à jour par un admin",
+    "Vote! An administrator updated your idea" => "Vote! Un administrateur a mis à jour le statut de votre idée",
+    "updated status for your idea:" => "a mis à jour le statut de votre idée :",
+    "Status changed to:" => "Statut changé pour :",
+
+    //Task List
+    "Tasklist" => "TodoList",
+    "Tasks List" => "Liste des tâches",
+    "Tasks" => "Tâches",
+    "Actions" => "Actions",
+    "Edit" => "Modifier",
+    "Add new Task" => "Ajouter",
+    "Add Task" => "Ajouter la tâche",
+    "Add a Task"=> "Ajouter une tâche",
+    "Enter your task" => "Tapez votre tâche"
+];

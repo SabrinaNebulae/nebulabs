@@ -1,0 +1,133 @@
+<?php
+ 
+return [
+    // Global
+    "Welcome to Nebulabs!" => "Welcome to Nebulabs!",
+    "Dashboard" =>  "Dashboard",
+    "Profile" =>  "Profile",
+    "Manage Account" =>  "Manage Account",
+    "Login" =>  "Login",
+    "Sign up" =>  "Sign up",
+    "Log Out" =>  "Log Out",
+    "Register" =>  "Register",
+    "Switch language" => "Switch language",
+    "English" => "English",
+    "French" => "French",
+
+    // Add an idea
+    "Add an idea" =>  "Add an idea",
+    "Please login to create an idea." => "Please login to create an idea.",
+    "Let us know what you would like and we'll take a look!" => "Let us know what you would like and we'll take a look!",
+    "Your Idea" =>  "Your Idea",
+    "Category" =>  "Category",
+    "Describe your idea" =>  "Describe your idea" ,
+    "Attach" =>  "Attach",
+    "Submit" =>  "Submit",
+
+    // Ideas Index
+    "Ideas" => "Ideas",
+    "All Ideas" =>  "All Ideas",
+    "Open" =>  "Open",
+    "Considering" =>  "Considering",
+    "In progress" =>  "In progress",
+    "Implemented" =>  "Implemented",
+    "Closed" =>  "Closed",
+    "Set Status" =>  "Set Status",
+    "Reply" =>  "Reply",
+    "Spam Reports:" =>  "Spam Reports:",
+    "Sorry, no ideas were found ..." => "Sorry, no ideas were found ...",
+    "There's actually" => "There's actually",
+    "idea(s) to debate!" => "idea(s) to debate!",
+
+    "All Categories" =>  "All Categories",
+    "No Filter" =>  "No Filter",
+    "Find an idea" =>  "Find an idea",
+    "Top Voted" =>  "Top Voted",
+    "My Ideas" =>  "My Ideas",
+    "Spam Ideas" =>  "Spam Ideas",
+    "Spam Comments" =>  "Spam Comments",
+    "No comments yet for this idea..." => "No comments yet for this idea...",
+
+    "vote" =>  "vote",
+    "comment" =>  "comment",
+    "Post comment" =>  "Post comment",
+    "I vote" =>  "Vote",
+    "Voted" =>  "Voted",
+    "Go ahead, don't be shy. Share your thoughts ..." =>  "Go ahead, don't be shy. Share your thoughts ...",
+    "Admin" => "Admin",
+
+    // Pagination + search
+    "Showing" =>  "Showing",
+    "results" =>  "results",
+    "to" =>  "to",
+    "of" =>  "of",
+    "Go Back to your research" => "Go Back to your research",
+
+
+    // Actions on Idea & Comment
+    "Edit Idea" =>  "Edit Idea",
+    "Delete" => "Delete",
+    "Delete Idea" =>  "Delete Idea",
+    "Mark as Spam" =>  "Mark as Spam",
+    "Not Spam" =>  "Not Spam",
+    "Edit Comment" =>  "Edit Comment",
+    "Delete Comment" =>  "Delete Comment",
+    "Status changed to" => "Status changed to",
+    "Cancel" => "Cancel",
+    "Mark all as read" => "Mark all as read",
+    "changed status for the idea" => "changed status for the idea" ,
+    "on" => "on",
+    "with this comment:" => "with this comment:" ,
+
+    
+    "Add an update comment (optional)" =>  "Add an update comment (optional)",
+    "Notify all voters" =>  "Notify all voters",
+    "Update" =>  "Update",
+
+    // Notifications & alert boxes
+    "No new notifications." => "No new notifications.",
+    "commented on" => "commented on",
+    "Idea was added successfully!" => "Idea was added successfully!",
+    "Idea was deleted successfully!" => "Idea was deleted successfully!",
+    "Status was updated successfully!" => "Status was updated successfully!",
+    "Status is the same!" => "Status is the same!",
+    "This idea no longer exists!" => "This idea no longer exists!",
+    "An administator changed this idea status." => "An administator changed this idea status.",
+    "Comment was posted!" => "Comment was posted!",
+    "Comment was deleted." => "Comment was deleted.",
+    "Comment was marked as spam." => "Comment was marked as spam.",
+    "Are you sure you want to delete this idea? This action cannot be undone." => "Are you sure you want to delete this idea? This action cannot be undone.",
+    "Are you sure you want to delete this comment? This action cannot be undone." => "Are you sure you want to delete this comment? This action cannot be undone.",
+    "Mark Idea as Spam" => "Mark Idea as Spam" ,
+    "Mark Comment as Spam" => "Mark Comment as Spam",
+    "Are you sure you want to mark this comment as spam?" => "Are you sure you want to mark this comment as spam?",
+    "Are you sure you want to mark this idea as spam?" => "Are you sure you want to mark this idea as spam?",
+    "Reset Spam Counter" => "Reset Spam Counter",
+    "Are you sure you want to mark this idea as NOT spam? This will reset the spam counter to 0." => "Are you sure you want to mark this idea as NOT spam? This will reset the spam counter to 0.",
+    "Are you sure you want to mark this comment as NOT spam? This will reset the spam counter to 0." => "Are you sure you want to mark this comment as NOT spam? This will reset the spam counter to 0.",
+    "Spam counter was reset for this comment!" => "Spam counter was reset for this comment!" ,
+    "Idea was marked as spam successfully!" => "Idea was marked as spam successfully!",
+    "Spam counter was reset for this idea!" => "Spam counter was reset for this idea!",
+    "A comment was posted on your idea" => "A comment was posted on your idea",
+    "commented on your idea:" => "commented on your idea:",
+    "Go to Idea" => "Go to Idea",
+    "Thanks," => "Thanks,",
+
+    // Emails
+    "An idea you voted for has a new status" => "An idea you voted for has a new status",
+    "Your Idea status was updated by an admin" => "Your Idea status was updated by an admin",
+    "Vote! An administrator updated your idea" => "Vote! An administrator updated your idea",
+    "updated status for your idea:" => "updated status for your idea:",
+    "Status changed to:" => "Status changed to:",
+
+    //Task List
+    "Tasklist" => "Tasklist",
+    "Tasks List" => "Tasks List",
+    "Tasks" => "Tasks",
+    "Actions" => "Actions",
+    "Edit" => "Edit" ,
+    "Add new Task" => "Add new Task",
+    "Add Task" => "Add Task",
+    "Add a Task" => "Add a Task",
+    "Enter your task" => "Enter your task"
+];
