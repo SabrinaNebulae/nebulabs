@@ -85,10 +85,10 @@ class User extends Authenticatable
     {
         $firstCharacter = $this->email[0];
 
-        $integerToUse = is_numeric($firstCharacter) 
+        $integerToUse = is_numeric($firstCharacter)
          ? ord(strtolower($firstCharacter)) - 21
          : ord(strtolower($firstCharacter)) - 96;
-         
+
         //  return sprintf(
         //     'https://www.gravatar.com/avatar/%s?s=200&d=%s-%d.png',
         //     md5($this->email),
@@ -97,16 +97,16 @@ class User extends Authenticatable
         // );
 
         // with random avatar at each load :
-        // $emailHash = md5($this->email);
-        // $avatarDefaults = ['mp', 'identicon', 'monsterid', 'retro', 'robohash'];
-        // $randomInteger = rand(0, count($avatarDefaults) - 1);
+        $emailHash = md5($this->email);
+        $avatarDefaults = ['mp', 'identicon', 'monsterid', 'retro', 'robohash'];
+        $randomInteger = rand(0, count($avatarDefaults) - 1);
 
-        // return "https://www.gravatar.com/avatar/{$emailHash}?s=200&d={$avatarDefaults[$randomInteger]}";
+        return "https://www.gravatar.com/avatar/{$emailHash}?s=200&d={$avatarDefaults[$randomInteger]}";
 
-         
-            $path = LaravelLocalization::getNonLocalizedURL('/storage/img/avatars/randatar') . $integerToUse . '.png'; 
-            return $path;
-         
+
+        /*$path = LaravelLocalization::getNonLocalizedURL('/storage/img/avatars/randatar') . $integerToUse . '.png';
+        return $path;*/
+
     }
 
     public function isAdmin()
