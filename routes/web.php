@@ -4,6 +4,7 @@ use App\Http\Controllers\IdeaController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\TasksController;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +23,7 @@ Route::group(
         'prefix' => LaravelLocalization::setLocale(),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
     ], function()
-    {   
+    {
         Route::get('/', function () { return view('welcome'); })->name('global-index');
         Route::get('/idea', [IdeaController::class, 'index'])->name('idea.index');
         Route::get('/ideas/{idea:slug}', [IdeaController::class, 'show'])->name('idea.show');
@@ -32,14 +33,14 @@ Route::group(
             'auth:sanctum',
             config('jetstream.auth_session'),
             'verified'
-        ])->group(function () {    
+        ])->group(function () {
             Route::get('/task/dashboard', function () {
                 return view('tasklist/dashboard');
             })->name('dashboard');
 
             Route::get('/task',[TasksController::class, 'add']);
             Route::post('/task',[TasksController::class, 'create']);
-            
+
             Route::get('/task/{task}', [TasksController::class, 'edit']);
             Route::post('/task/{task}', [TasksController::class, 'update']);
         });
