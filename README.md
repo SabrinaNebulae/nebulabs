@@ -2,7 +2,7 @@
 
 ## Vote App
 
-Vote App is a test web application that allows users to create and vote on polls, create tasks and maybe later, lot more. The application is built with Laravel, Livewire and AlpineJS.
+Vote App is a test web application that allows users to create and vote on polls, create tasks and maybe later, lot more. The application is built with TALL stack: Laravel, Livewire, Tailwind and AlpineJS.
 
 <p align="center"><img src="https://github.com/SabrinaNebulae/nebulabs/blob/main/resources/images/vote-app-screens.jpg" width="100%" alt="Vote App" /></p>
 
