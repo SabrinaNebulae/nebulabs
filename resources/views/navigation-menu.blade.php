@@ -64,9 +64,9 @@
                                         class="inline-flex items-center px-3 py-2 border border-transparent dark:bg-slate-700 dark:text-white text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition">
                                         <span class="w-5 mr-2">
                                             @if (App::isLocale('en'))
-                                                <img src="{{ asset('storage/flags/gb.svg') }}" alt="English">
+                                                <img src="{{ asset('storage/flags/en-GB.svg') }}" alt="English">
                                             @elseif (App::isLocale('fr'))
-                                                <img src="{{ asset('storage/flags/fr.svg') }}" alt="Français">
+                                                <img src="{{ asset('storage/flags/fr-FR.svg') }}" alt="Français">
                                             @endif
                                         </span>
                                         {{ LaravelLocalization::getCurrentLocaleNative() }}
@@ -79,7 +79,7 @@
                                         </svg>
                                     </button>
                                 </span>
-                                
+
                         </x-slot>
 
                         <x-slot name="content">
@@ -88,9 +88,9 @@
                                     <a class="px-4 py-2 flex items-center justify-left hover:bg-gray-100 dark:text-white dark:hover:bg-gray-500" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
                                         <span class="w-5 mr-2">
                                             @if($properties['native'] == "English")
-                                            <img src="{{ asset('storage/flags/gb.svg') }}" alt="English">
+                                            <img src="{{ asset('storage/flags/en-GB.svg') }}" alt="English">
                                             @elseif($properties['native'] == "Français")
-                                                <img src="{{ asset('storage/flags/fr.svg') }}" alt="Français">
+                                                <img src="{{ asset('storage/flags/fr-FR.svg') }}" alt="Français">
                                             @endif
                                         </span>
                                         {{ $properties['native'] }}
@@ -99,7 +99,7 @@
                             @endforeach
                             <div class="mb-5"></div>
                         </x-slot>
-                        
+
                     </x-jet-dropdown>
                 </div>
 
